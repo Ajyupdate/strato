@@ -1,4 +1,6 @@
+import Footer from "@/components/Footer";
 import Coding from "@/modules/LandingPage/Coding";
+import ContactUs from "@/modules/LandingPage/ContactUs";
 import HeroSection from "@/modules/LandingPage/HeroSection";
 import HowWeMake from "@/modules/LandingPage/HowWeMake";
 import MissionVisionLayout from "@/modules/LandingPage/MissionAndVissionLayout";
@@ -17,6 +19,8 @@ export default function Home() {
       <UnlockSection />
       <Subjects />
       <Coding />
+      <ContactUs />
+      <Footer />
     </Box>
   );
 }

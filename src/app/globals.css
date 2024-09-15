@@ -31,3 +31,16 @@ body {
     text-wrap: balance;
   }
 }
+
+.error-message {
+  color: red;
+  font-size: 14px;
+}
+
+.watsappIcon {
+  width: 65px;
+  position: sticky;
+  z-index: 10;
+  bottom: 100px;
+  float: right;
+}
