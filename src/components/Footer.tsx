@@ -56,11 +56,13 @@ export default function Navbar() {
         >
           <Stack
             direction={{ base: "column", md: "row" }}
-            // ml={{ base: 4, md: "" }}
+            ml={{ base: 4, md: "" }}
             spacing={{ base: 0, md: 8 }}
             // alignItems={{ base: "left", md: "center" }}
           >
-            <Box fontWeight={"bold"}>Logo</Box>
+            <Box ml={2} fontWeight={"bold"}>
+              Logo
+            </Box>
 
             {/* <Box pb={4} display={{ md: "none" }}>
               <Stack as={"nav"} spacing={4}>
@@ -82,7 +84,7 @@ export default function Navbar() {
             </Flex>
           </Stack>
 
-          <Flex alignItems={"center"}>
+          <Flex ml={{ base: "10%", md: "" }} alignItems={"center"}>
             <HStack as={"nav"} spacing={4} display="flex">
               {Images.map((images) => (
                 <Image key="images" src={images} alt="images" />
