@@ -8,8 +8,8 @@ import { Providers } from "./provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Strato",
-  description: "Coming soon...",
+  title: "Theano",
+  description: "Unlocking Confidence, Unlocking Potentials",
 };
 
 export default function RootLayout({

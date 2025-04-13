@@ -6,6 +6,7 @@ import {
   Flex,
   HStack,
   IconButton,
+  Image,
   Stack,
   useColorModeValue,
   useDisclosure,
@@ -56,7 +57,9 @@ export default function Navbar() {
             onClick={isOpen ? onClose : onOpen}
           />
           <HStack ml={{ base: 4, md: "" }} spacing={8} alignItems={"center"}>
-            <Box>Logo</Box>
+            <Box>
+              <Image width={50} height={50} src="logo.jpg" alt="logo " />
+            </Box>
           </HStack>
           <Flex alignItems={"center"}>
             <HStack
