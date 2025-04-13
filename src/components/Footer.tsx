@@ -45,7 +45,7 @@ export default function Navbar() {
   return (
     <>
       <Link href={"https://wa.me/2348178555400"} target="_blank">
-        <Image src={"/Whatsapp.png"} alt="whatsApp" className="watsappIcon" />{" "}
+        <Image src={"whatsapp.png"} alt="whatsApp" className="watsappIcon" />{" "}
       </Link>
       <Box mx={"5%"}>
         <Flex
